@@ -526,7 +526,7 @@ const App = () => {
 
   return (
     <div className={isDark ? 'dark' : ''}>
-      <div className="min-h-screen bg-[#F5F5F7] dark:bg-[#0F172A] text-slate-900 dark:text-slate-100 font-sans transition-colors duration-300 pb-20">
+      <div className="min-h-screen bg-[#F5F5F7] dark:bg-[#0F172A] text-slate-900 dark:text-slate-100 font-sans pb-20">
         <style>{`@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap'); .scrollbar-hide::-webkit-scrollbar { display: none; } .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }`}</style>
 
         <nav className="sticky top-0 z-40 bg-white/80 dark:bg-[#0F172A]/80 backdrop-blur-xl border-b border-gray-200/80 dark:border-slate-800">
